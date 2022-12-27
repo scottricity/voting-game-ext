@@ -1,0 +1,33 @@
+{
+  "name": "voting-game-ext",
+  "version": "1.0.0",
+  "description": "A Twitch extension/voting game for interacting with viewers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottricity/voting-game-ext.git"
+  },
+  "keywords": [
+    "twitch",
+    "extension",
+    "game",
+    "voting",
+    "js",
+    "ui",
+    "tags-are-cool"
+  ],
+  "author": "Jonathan Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottricity/voting-game-ext/issues"
+  },
+  "homepage": "https://github.com/scottricity/voting-game-ext#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hapi": "^18.1.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
